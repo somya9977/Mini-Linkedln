@@ -1,7 +1,7 @@
 import React, { useState, useEffect, createContext, useContext } from 'react';
 
 // API Configuration
-const API_BASE_URL = 'https://mini-linkedin-backend-0i7t.onrender.com'; // Replace with your actual API URL
+const API_BASE_URL = 'http://localhost:5000'; // Replace with your actual API URL
 
 // API helper functions
 const apiCall = async (endpoint, options = {}) => {
